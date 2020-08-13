@@ -164,7 +164,7 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #ffcc00;
+  color: #a00;
   text-decoration: underline;
 }
 
@@ -2476,13 +2476,13 @@ fieldset:disabled a.btn {
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #f24516;
-  border-color: #ee3e0d;
+  background-color: #a00;
+  border-color: #a00;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #f24516;
-  border-color: #ee3e0d;
+  background-color: #a00;
+  border-color: #a00;
   box-shadow: 0 0 0 0.2rem rgba(246, 122, 88, 0.5);
 }
 .btn-primary.disabled, .btn-primary:disabled {
@@ -2915,7 +2915,7 @@ fieldset:disabled a.btn {
   text-decoration: none;
 }
 .btn-link:hover {
-  color: #ffcc00;
+  color: #a00;
   text-decoration: underline;
 }
 .btn-link:focus, .btn-link.focus {
@@ -4605,7 +4605,7 @@ input[type=button].btn-block {
 }
 .page-link:hover {
   z-index: 2;
-  color: #ffcc00;
+  color: #a00;
   text-decoration: none;
   background-color: #e9ecef;
   border-color: #dee2e6;
@@ -9801,7 +9801,7 @@ button.bg-dark:focus {
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #ffcc00 !important;
+  color: #a00 !important;
 }
 
 .text-secondary {
