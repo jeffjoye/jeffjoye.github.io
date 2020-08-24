@@ -10164,3 +10164,17 @@ header.masthead h1 {
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
 }
+
+.profile-pic {
+  display: inline-block;
+  margin: 0 auto 15px;
+  width: 150px;
+  height: 150px;
+  background-image: url(../assets/img/pic.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150px;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 5px #555;
+}
