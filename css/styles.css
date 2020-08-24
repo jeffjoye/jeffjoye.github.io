@@ -10175,6 +10175,14 @@ header.masthead h1 {
   background-position: center;
   background-size: 150px;
   border-radius: 50%;
-  border: 2px solid white;
-  box-shadow: 0 0 5px #555;
+  border: 3px solid white;
+  box-shadow: 0 0 5px #222;
+}
+@media only screen and (max-width: 700px) {
+  .profile-pic {
+      margin-bottom: 10px;
+      width: 85px;
+      height: 85px;
+      background-size: 85px;
+  }
 }
