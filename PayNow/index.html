@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PayNow - Process Layout Mockup</title>
+	<meta name="viewport" content="width=device-width,maximum-scale=1,initial-scale=1,user-scalable = yes">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+	<style>
+		body {
+			background-color: #eee;
+			font-family: 'Montserrat', sans-serif;
+			font-size: 14px;
+			margin: 0;
+			padding: 0;
+		}
+		h1, h2, h3, h4, h5, h6 {
+			margin: 0;
+			font-weight: 600;
+		}
+		h3 {
+			margin-bottom: 5px;
+			font-size: 21px;
+		}
+		h4 {
+			margin-bottom: 15px;
+			font-size: 20px;
+			font-family: 'Roboto Condensed', sans-serif;
+			text-transform: uppercase;
+			letter-spacing: 1.5px;
+		}
+		h5 {
+			margin-bottom: 10px;
+			font-size: 16px;
+		}
+		p {
+			margin: 0;
+			margin-bottom: 15px;
+			line-height: 18px;
+		}
+		p:last-child {
+			margin-bottom: 0;
+		}
+		a {
+			color: #f05423;
+			text-decoration: underline;
+		}
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+		div#paynow_InfoWrapper { 
+			max-width: 680px; 
+			margin: 0px auto; 
+			background-color: white;	
+		}
+		.paynow_hero {
+			padding: 25px;
+			color: white;
+			background-color: #222;
+			background-image: url(img/hero.jpg);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+		}
+		h1.paynow_hero__title {
+			font-size: 52px;
+			font-family: 'Roboto Condensed', sans-serif;
+			font-weight: 700;
+			letter-spacing: 2px;
+			width: 350px;
+			line-height: 55px;
+			margin-top: 50px;
+			text-transform: uppercase;
+		}
+		.paynow_block {
+			padding: 25px;
+		}
+		#paynow_block--about {
+			text-align: center;
+		}
+		#paynow_block--about > p {
+			width: 75%;
+			margin: auto;
+		}
+		#paynow_block--steps {
+			padding-top: 35px;
+			padding-bottom: 35px;
+			padding-left: 50px;
+			color: white;
+			background-color: black;
+		}
+		#paynow_block--steps > h5 {
+			margin-bottom: 25px;
+			padding-left: 80px;
+		}
+		.paynow_steps {
+			position: relative;
+			margin-left: 30px;
+			padding-left: 50px;
+			padding-bottom: 25px;
+			border-left: 3px solid white;
+		}
+		.paynow_steps:before {
+			display: block;
+			content: '';
+			position: absolute;
+			left: -26px;
+			width: 42px;
+			height: 42px;
+			background-color: black;
+			border: 3px solid #f05423;
+			border-radius: 50%;
+		}
+		.paynow_steps:last-child {
+			border-left-color: transparent;
+			padding-bottom: 0;
+		}
+		.paynow_steps > h3 {
+			padding-top: 10px;
+		}
+		p.paynow_block__sep {
+			padding: 15px 0;
+			border-top: 1px solid #ddd;
+			border-bottom: 1px solid #ddd;
+		}
+		#paynow_block--faq {
+			color: white;
+			text-align: center;
+			background-color: black;
+		}
+		ul.paynow_list {
+			padding-left: 25px;
+			list-style: disc;
+			line-height: 21px;
+		}
+		@media only screen and (max-width: 600px){
+			body {
+				font-size: 13px;
+			}
+			h3 {
+			    font-size: 18px;
+			    margin-bottom: 3px;
+			}
+			h1.paynow_hero__title {
+			    font-size: 36px;
+			    letter-spacing: 1px;
+			    width: 235px;
+			    line-height: 42px;
+			    margin-top: 30px;
+			}
+			#paynow_block--about > p {
+				width: auto;
+			}
+			#paynow_block--steps {
+			    padding-top: 25px;
+			    padding-bottom: 25px;
+			    padding-left: 25px;
+			}
+			#paynow_block--steps > h5 {
+			    padding-left: 0;
+			}
+			.paynow_steps {
+			    position: relative;
+			    margin-left: 25px;
+			    padding-left: 30px;
+			    padding-bottom: 20px;
+			    border-left-width: 2px;
+			}
+			.paynow_steps:before {
+			    left: -16px;
+			    width: 25px;
+			    height: 25px;
+			    border-width: 2px;
+			}
+			.paynow_steps > h3 {
+				padding-top: 2px;
+			}
+		}
+	</style>
+</head>
+<body>
+
+<div id="paynow_InfoWrapper">
+	<div class="paynow_hero">
+		<h1 class="paynow_hero__title">Shop now. Pay later with PayNow.</h1>
+	</div>
+	<div class="paynow_block" id="paynow_block--about">
+		<p>We’re excited to announce we have partnered with PayNow to bring you new ways to pay at checkout. It’s a safe and simple way to get the stuff you want, when you want it.</p>
+	</div>
+	<div class="paynow_block" id="paynow_block--steps">
+		<h5>Here’s how it works:</h5>
+		<div class="paynow_steps">
+			<h3>Step 1</h3>
+			Add products to your cart and select PayNow when you check out
+		</div>
+		<div class="paynow_steps">
+			<h3>Step 2</h3>
+			Enter a few personal details and you’ll know instantly if you’re approved
+		</div>
+		<div class="paynow_steps">
+			<h3>Step 3</h3>
+			PayNow will send you an email confirmation and reminders when it’s time to pay
+		</div>
+		<div class="paynow_steps">
+			<h3>Step 4</h3>
+			You can complete your future PayNow purchases with just one click
+		</div>
+	</div>
+	<div class="paynow_block">
+		<h4>Flexible payment options</h4>
+		<h5>Pay in 4 interest-free installments</h5>
+		<p>Split your purchase into four equal payments. Just enter the credit or debit card details of your choice and make automatic payments every two weeks. No interest or fees when you pay on time.</p>
+		<p class="paynow_block__sep"><i>Alternative version:</i><br>
+		Shop today and split purchases into 4 equal interest-free installments. Zero interest and no fees when you pay on time. Simply enter your card details
+		and automatic payments are taken every 2 weeks.</p>
+		<p><a href="#" target="_blank">Full terms of Pay later in 4 interest-free installments.</a><br>
+		*CA residents: Loans made or arranged pursuant to a California Finance Lenders Law license.</p>
+	</div>
+	<div class="paynow_block" id="paynow_block--faq">
+		<h4>Frequently Asked Questions</h4>
+		<p>Visit our  <a href="#" target="_blank">FAQ page</a> to find out more about using PayNow.</p>
+	</div>
+	<div class="paynow_block">
+		<h4>About PayNow</h4>
+		<p>At PayNow, we have a relentless focus on creating the best shopping experience in the world. We believe payments are so much more than just a way to send money. That’s why our smooth payment methods give you more time, control and joy so you can focus on the things you love.</p>
+		<ul class="paynow_list">
+			<li>80 million shoppers are using PayNow.</li>
+			<li>190,000 retailers are working with us worldwide.</li>
+			<li>We’ve been powering online checkouts for 14 years.</li>
+		</ul>
+	</div>
+</div>
+
+</body>
+</html>
